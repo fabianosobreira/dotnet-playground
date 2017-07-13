@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Reports\BechmarkSyncronousFileCreation.diagsession" />
+    <None Include="Reports\BenchmarkSyncronousFileCreation.diagsession" />
     <None Include="Reports\BenchmarkAsyncronousFileCreationInAForeachLoop.diagsession" />
     <None Include="Reports\BenchmarkAsyncronousFileCreationWithTaskWhenAll.diagsession" />
   </ItemGroup>
