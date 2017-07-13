@@ -17,7 +17,7 @@ namespace AsyncFileCreationBenchmark
             FileCreator fileCreator = new FileCreator();
 
             fileNames = GenerateFileNames(filesToCreate);
-            fileCreator.BechmarkSyncronousFileCreation(fileNames, fileSizeInBytes);
+            fileCreator.BenchmarkSyncronousFileCreation(fileNames, fileSizeInBytes);
             fileCreator.Cleanup(fileNames);
 
             GC.Collect();
@@ -59,7 +59,7 @@ namespace AsyncFileCreationBenchmark
                 }
             }
 
-            public void BechmarkSyncronousFileCreation(
+            public void BenchmarkSyncronousFileCreation(
                 IEnumerable<string> fileNames,
                 int fileSizeInBytes)
             {
